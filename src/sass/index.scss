@@ -1,0 +1,39 @@
+    //imports
+    @import './_cdn.scss';
+    @import './_var.scss';
+    @import './header.scss';
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: 'Raleway', 'Cardo', sans-serif;
+    }
+
+    button {
+        cursor: pointer;
+        border: none;
+    }
+
+    .container {
+        max-width: 1170px;
+        padding: 0 15px;
+        margin: auto;
+
+        @media (max-width: 1024px) {
+            max-width: 984px;
+            padding: 0 15px;
+            margin: auto;
+        }
+
+        @media (max-width: 320px) {
+            max-width: 280px;
+            margin: auto;
+            padding: 0;
+        }
+    }
