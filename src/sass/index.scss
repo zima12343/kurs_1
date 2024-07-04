@@ -2,6 +2,10 @@
     @import './_cdn.scss';
     @import './_var.scss';
     @import './header.scss';
+    @import './download_now.scss';
+    @import './about_us.scss';
+    @import './footer.scss';
+
 
     * {
         margin: 0;
@@ -18,6 +22,10 @@
     button {
         cursor: pointer;
         border: none;
+    }
+
+    a {
+        cursor: pointer;
     }
 
     .container {

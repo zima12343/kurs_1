@@ -1,0 +1,40 @@
+.footer {
+    background-color: #2C3154;
+    padding: 24px 0;
+    @media (max-width: 1024px) {
+        padding: 14px 0;
+    }
+
+    @media (max-width: 320px) {
+        padding: 29px 0;
+    }
+}
+
+.footer-company-wrap {
+    width: 370px;
+    margin: auto;
+
+    p {
+        text-align: center;
+        color: #808080;
+        font-weight: $raleway_regular;
+        font-size: 18px;
+
+        span {
+            color: #fff;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 14x;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        width: 314px;
+    }
+
+    @media (max-width: 320px) {
+        width: 280px;
+    }
+
+}
