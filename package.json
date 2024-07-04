@@ -1,0 +1,23 @@
+{
+  "name": "appsettings",
+  "version": "1.0.0",
+  "description": "",
+ "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zima12343/kurs_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zima12343/kurs_1/issues"
+  },
+  "homepage": "https://github.com/zima12343/kurs_1#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
