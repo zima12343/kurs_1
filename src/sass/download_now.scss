@@ -1,6 +1,6 @@
 .download-now {
     padding: 115px 0;
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         padding: 45px 0;
     }
 }
@@ -14,11 +14,11 @@
         font-weight: $raleway_medium;
         text-align: center;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 24px;
         }
 
-        @media (max-width: 320px) {
+        @media (max-width: $small_view) {
             font-size: 18px;
         }
     }
@@ -35,11 +35,11 @@
         text-align: center;
         text-transform: uppercase;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 14px;
         }
 
-        @media (max-width: 320px) {
+        @media (max-width: $small_view) {
             font-size: 13px;
         }
     }
@@ -58,16 +58,16 @@
         color: #fff;
         width: 100%;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 18px;
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         width: 315px;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         width: 280px;
     }
 }

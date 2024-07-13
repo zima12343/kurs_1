@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         flex-direction: column;
     }
 }
@@ -22,16 +22,16 @@
         color: #fff;
         text-align: center;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 14px;
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         width: 315px;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         margin-top: 60px;
         width: 280px;
         &:first-child{
@@ -54,17 +54,17 @@
         color: #fff;
         text-align: center;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 14px;
         }
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         margin: 70px auto 0;
         width: 130px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         width: 145px;
     }
 }
@@ -79,12 +79,12 @@
         font-weight: $raleway_regular;
         text-transform: capitalize;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 14px;
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         margin-top: 18px;
     }
 }
@@ -110,19 +110,19 @@
                 height: 100%;
                 flex-grow: 1;
 
-                @media (max-width: 1024px) {
+                @media (max-width: $medium_view) {
                     line-height: 33px;
                     font-size: 15px;
                 }
             }
 
-            @media (max-width: 1024px) {
+            @media (max-width: $medium_view) {
                 width: 33px;
             }
         }
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         margin-top: 37px;
     }
 }
@@ -137,12 +137,12 @@
         font-weight: $raleway_regular;
         text-transform: capitalize;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 14px;
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         margin-top: 18px;
     }
 }

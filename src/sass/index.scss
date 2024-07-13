@@ -2,6 +2,7 @@
     @import './_cdn.scss';
     @import './_var.scss';
     @import './header.scss';
+    @import './feature.scss';
     @import './download_now.scss';
     @import './about_us.scss';
     @import './footer.scss';
@@ -33,13 +34,13 @@
         padding: 0 15px;
         margin: auto;
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             max-width: 984px;
             padding: 0 15px;
             margin: auto;
         }
 
-        @media (max-width: 320px) {
+        @media (max-width: $small_view) {
             max-width: 280px;
             margin: auto;
             padding: 0;

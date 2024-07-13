@@ -1,11 +1,11 @@
 .footer {
     background-color: #2C3154;
     padding: 24px 0;
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         padding: 14px 0;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         padding: 29px 0;
     }
 }
@@ -24,16 +24,16 @@
             color: #fff;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: $medium_view) {
             font-size: 14x;
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $medium_view) {
         width: 314px;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $small_view) {
         width: 280px;
     }
 
