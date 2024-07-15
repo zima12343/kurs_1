@@ -110,6 +110,11 @@
                 height: 100%;
                 flex-grow: 1;
 
+                &:hover{
+                    background-color: #C6CBCD;
+                    color: #353C65;
+                }
+
                 @media (max-width: $medium_view) {
                     line-height: 33px;
                     font-size: 15px;

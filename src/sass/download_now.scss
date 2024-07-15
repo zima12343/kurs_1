@@ -58,6 +58,10 @@
         color: #fff;
         width: 100%;
 
+        &:active{
+            background-color: #E71414;
+        }
+
         @media (max-width: $medium_view) {
             font-size: 18px;
         }

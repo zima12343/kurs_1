@@ -3,6 +3,8 @@
     @import './_var.scss';
     @import './header.scss';
     @import './feature.scss';
+    @import './team.scss';
+    @import './testimonials.scss';
     @import './download_now.scss';
     @import './about_us.scss';
     @import './footer.scss';
@@ -45,4 +47,20 @@
             margin: auto;
             padding: 0;
         }
+    }
+
+    .none-display {
+        display: none;
+    }
+
+    .full-screen{
+        height: 100vh;
+    }
+
+    .block-display{
+        display: block;
+    }
+
+    .no-scroll{
+        overflow-y: hidden;
     }

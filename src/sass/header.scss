@@ -197,6 +197,10 @@
         color: $_header_text_color;
         background-color: $buttons_color;
 
+        &:active{
+            background-color: #E71414;
+        }
+
         @media (max-width: $small_view) {
             line-height: 60px;
         }
@@ -220,5 +224,46 @@
         display: block;
         color: $_header_text_color;
         font-size: 20px;
+    }
+}
+
+
+//burger
+
+.burger {
+    position: relative;
+    z-index: 3;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    font-size: 25px;
+    color: #fff;
+}
+
+.burger-nav {
+    margin-top: 40px;
+}
+
+.burger-nav-links {
+    display: flex;
+    flex-direction: column;
+
+    li {
+        padding: 15px 0;
+
+        a {
+            text-transform: uppercase;
+            color: #fff;
+        }
     }
 }

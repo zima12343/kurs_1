@@ -1,0 +1,140 @@
+.team {
+    padding: 115px 0;
+
+    @media (max-width: $medium_view) {
+        padding: 75px 0;
+    }
+
+    @media (max-width: $small_view) {
+        padding: 35px 0;
+    }
+}
+
+.team-card-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: $small_view) {
+        flex-direction: column;
+    }
+}
+
+.team-card {
+    width: 270px;
+    margin-left: 10px;
+
+    &:first-child {
+        margin-left: 0px;
+    }
+
+    @media (max-width: $medium_view) {
+        width: 228px;
+        margin-top: 0px;
+        margin-left: 10;
+    }
+
+    @media (max-width: $small_view) {
+        width: 280px;
+        margin-left: 0px;
+        margin-top: 55px;
+
+        &:first-child {
+            margin-top: 0px;
+        }
+    }
+
+    @media (max-width: 1139) {
+        &:last-child {
+            margin-top: 20px;
+            margin-left: 0;
+        }
+    }
+}
+
+.team-card-img {
+    height: 270px;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    @media (max-width: $medium_view) {
+        height: 227px;
+    }
+}
+
+.team-card-content {
+    h3 {
+        font-size: 24px;
+        font-weight: $raleway_bold;
+        color: #2D3033;
+        margin-top: 30px;
+        text-transform: uppercase;
+
+        @media (max-width: $medium_view) {
+            font-size: 18px;
+            margin-top: 25px;
+        }
+    }
+
+    span {
+        font-size: 18px;
+        font-weight: $raleway_regular;
+        color: #FF4343;
+        text-transform: uppercase;
+
+        @media (max-width: $medium_view) {
+            font-size: 14px;
+        }
+    }
+}
+
+.card-desc {
+    margin-top: 20px;
+
+    p {
+        font-size: 18px;
+        font-weight: $raleway_regular;
+        color: #6C7279;
+
+        @media (max-width: $medium_view) {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: $small_view) {
+        margin-top: 35px;
+    }
+}
+
+.team-social {
+    margin-top: 35px;
+
+    @media (max-width: $small_view) {
+        margin-top: 55px;
+    }
+}
+
+.team-icon {
+    color: #C6CBCD;
+    font-size: 19px;
+    border: 1px solid #C6CBCD;
+    width: 39px;
+    padding: 10px 0;
+    text-align: center;
+
+    &:hover {
+        color: #fff;
+        background-color: #C6CBCD;
+    }
+
+    @media (max-width: $medium_view) {
+        width: 33px;
+        font-size: 15px;
+        padding: 9px 0;
+    }
+}
