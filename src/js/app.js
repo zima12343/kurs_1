@@ -1,8 +1,8 @@
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
 
 const swiper = new Swiper('.swiper', {
-  modules: [Navigation, Pagination],
+  modules: [Navigation, Pagination, Autoplay, EffectCoverflow],
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -10,8 +10,13 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
     clickable: true,
   },
+
+  effect:'coverflow',
+
+  speed: 1000,
+
   autoplay: {
-    delay: 500,
+    delay: 3000,
   },
 
   // Navigation arrows
@@ -20,19 +25,9 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-  breakpoints: {
-    // when window width is <= 499px
-    320: {
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: false,
-      }
-    },
-}
 });
 
-const buttonMenu = document.getElementById('menu-button');
-
+const buttonMenu = document.getElementById('burger-menu-button');
 buttonMenu.onclick = function()
 {
   const headerWrap = document.getElementById('header-wrap');

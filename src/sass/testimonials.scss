@@ -16,6 +16,11 @@
 .swiper-slide {
     display: flex;
     justify-content: space-between;
+    background-color: #5C3249;
+
+    &:nth-child(2n){
+        background-color: #2C3154;
+    }
 
     @media (max-width: $small_view) {
         flex-direction: column;
@@ -38,17 +43,7 @@
     }
 }
 
-.slide-even {
-    background-color: #5C3249;
-    width: 50%;
-    @media (max-width: $small_view) {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-.slide-odd {
-    background-color: #2C3154;
+.slide {
     width: 50%;
     @media (max-width: $small_view) {
         width: 100%;

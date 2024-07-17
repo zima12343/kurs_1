@@ -187,6 +187,10 @@
 .header-button {
     width: 370px;
     margin: 80px auto 0;
+    animation-name: header_button;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
 
     button {
         width: 100%;
@@ -216,6 +220,15 @@
         width: 280px;
     }
 }
+
+@keyframes header_button {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+  }
 
 .menu-icon {
     display: none;

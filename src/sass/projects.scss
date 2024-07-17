@@ -1,5 +1,6 @@
 .projects-wrap {
     display: grid;
+    overflow: hidden;
     grid-template-columns: repeat(4, 25%);
 
     @media (max-width:750px) {

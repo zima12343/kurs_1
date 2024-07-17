@@ -42,6 +42,11 @@
 .feature-card {
     width: 370px;
 
+    &:hover{
+        transform: translate(0, -10px);
+        transition-duration: 0.5s;
+    }
+
     h3 {
         text-transform: uppercase;
         font-weight: $raleway_black;
